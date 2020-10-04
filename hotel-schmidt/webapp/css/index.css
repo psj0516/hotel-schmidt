@@ -1,0 +1,10 @@
+
+#menu {
+  overflow: hidden;
+  background: #3a89ff;
+  width: 1200px;
+}
+
+#menu a {
+  line-height: 70px;
+}

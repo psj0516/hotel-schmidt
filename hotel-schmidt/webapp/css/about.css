@@ -1,0 +1,28 @@
+.column1 {
+  width: 50%;
+  margin: 0;
+}
+
+.column4 {
+  width: 50%;
+  text-align: right;
+}
+
+.column4 img {
+  float: right;
+  width: 90%;
+}
+
+.column1 img {
+  float: left;
+  width: 90%;
+}
+
+#page {
+	padding: 1.5em 0;
+}
+
+hr {
+	display: block;
+	border: 1px dashed #3a89ff;
+}

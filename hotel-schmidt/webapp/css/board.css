@@ -1,0 +1,221 @@
+h2 {
+	color: #3a89ff;
+	font-weight: 800;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+table th {
+	background: #3a89ff;
+	color: #fff;
+	line-height: 2em;
+	font-size: 1em;
+}
+
+table td {
+	line-height: 2em;
+	background: rgb(236, 236, 236);
+}
+
+table .num, table .view, table .select {
+	width: 5%;
+}
+
+table .subject {
+	width: 60%;
+}
+
+table .title {
+	padding-left: 15px;
+	text-align: left;
+}
+
+.sub {
+	cursor: pointer;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.button {
+	float: right;
+}
+
+.pages {
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.pagenum {
+	display: block;
+	width: 40px;
+	font-size: 12px;
+	margin: 0px 5px;
+	text-align: center;
+	line-height: 2.5em;
+	color: #fff;
+	background: #3a89ff;
+}
+
+/* 글쓰기 */
+.post {
+	width: 700px;
+}
+
+.post td {
+	text-align: left;
+	background: #fff;
+}
+
+.post input, .post textarea {
+	border: solid 1px rgb(226, 226, 226);
+	width: 700px;
+	height: 30px;
+}
+
+table input:focus, table textarea:focus {
+	outline: solid 1px #3a89ff;
+}
+
+.small {
+	width: 180px !important;
+}
+
+table textarea {
+	height: 150px !important;
+}
+
+.postbutton {
+	float: right;
+	width: 100px !important;
+	height: 45px !important;
+}
+
+.postbutton2 {
+	float: left;
+	width: 100px !important;
+	margin-right: 10px;
+	height: 45px !important;
+}
+
+.adminpost {
+	border-collapse: collapse;
+	width: 820px;
+}
+
+.adminpost td {
+	text-align: left;
+	height: 50px;
+	border-bottom: rgb(226, 226, 226) solid 2px;
+}
+
+.adminpost .last {
+	border-bottom: none;
+}
+
+.adminpost input {
+	width: 150px;
+}
+
+.adminpost select {
+	width: 80px;
+	height: 30px;
+}
+
+.rev_management {
+	margin-top: 10px;
+}
+
+.rev_management th, .rev_management td {
+	width: 80px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.column1 {
+	width: 200px;
+	margin: 0;
+}
+
+.column4 {
+	width: 950px;
+}
+
+.sub_menu ul {
+	margin-top: 10px;
+}
+
+.sub_title {
+	margin-top: 5px;
+	font-weight: 700;
+	color: #3a89ff;
+}
+
+.rev_board {
+	margin-top: 10px;
+	width: 800px;
+}
+
+.rev_board th, .rev_board td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.blank {
+	background: none;
+}
+
+.lmargin {
+	margin-left: 5px;
+}
+
+.files {
+	border: solid 1px rgb(226, 226, 226);
+	width: 700px;
+	height: 30px;
+}
+
+.file {
+	width: 200px !important;
+	height: 25px !important;
+	border-style: none !important;
+}
+
+.checkbutton {
+	height: 40px !important;
+	line-height: 3em;
+	width: 150px !important;
+	float: none;
+}
+
+#boardheader {
+	float: left;
+	height: 100px;
+}
+
+#search {
+	margin-top: 60px;
+	float: right;
+}
+
+#search form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#search .searchbox,
+#search .category {
+	border: solid 1px rgb(226, 226, 226);
+	width: 150px;
+	line-height: 2em;
+	margin-right: 5px;
+}
+
+#search .button {
+	line-height: 2em;
+}

@@ -1,0 +1,35 @@
+h2 {
+  margin-left: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+.input {
+  width: 300px;
+  height: 30px;
+  margin-left: 20px;
+  border: solid 1px rgb(226, 226, 226);
+}
+
+.input:focus {
+  outline: solid 1px #3a89ff;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.button {
+  margin-left: 10px;
+}
+
+.checkbutton {
+  margin-left: 0;
+  line-height: 2.3em;
+}
+
+#passwdMessage {
+	color: red;
+}
